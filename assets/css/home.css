@@ -1,0 +1,818 @@
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+
+/* ====================================             ==================================== */
+/* ==================================== banner top  ==================================== */
+/* ====================================             ==================================== */
+
+.banner-home {
+  background-position: center center;
+  background-size: cover;
+  height: 516px;
+  border-bottom: solid 10px #13104f;
+}
+
+/* ==================================== section of form search fly */
+
+.form-search-fly {
+  width: 533px;
+  height: 460px;
+  background: rgba(251, 242, 107, 0.84);
+  margin-top: 24px;
+  border-bottom: solid 9px #261f54;
+}
+
+/* ========= navbar top */
+.bar-top-search .nav {
+  background-color: #ebc222;
+  padding-left: 5%;
+  -webkit-border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; 
+
+}
+.nav-search {
+  width: 306px;
+  margin: 0 auto;
+}
+
+.bar-top-search .nav>li {
+  text-align: center;
+  margin: 0;
+}
+.bar-top-search .nav>li:after {
+  content: " ";
+  height: 50px;
+  width: 2px;
+  background-image: url(../img/bar.png); 
+  float: right;
+  margin-top: 9px;
+}
+.bar-top-search .nav>li:last-child::after {
+  background: none;
+}
+.bar-top-search .nav>li>a img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5px;
+
+}
+/*.bar-top-search .nav>li:last-child a {
+  padding-top: 17px
+}*/
+.bar-top-search .nav>li>a {
+  display: block;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #bc5e00;
+}
+.bar-top-search .nav>li>a:hover,
+.bar-top-search .nav>li>a:focus,
+.bar-top-search .nav>li>a.active {
+  background: transparent;
+  color: #221d69;
+}
+
+.bar-top-search .nav>li>a i.search-icon {
+  font-size: 27px;
+  display: block;
+}
+
+/* ========= title */
+.box-form h3 {
+  color: #221d69;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Avenir LT Std Med';
+
+}
+/* =========  radios */
+.radios-button {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.radios-button label:first-child {
+  margin-right: 28%;
+
+}
+
+/* =========  all inputs*/
+.box-form label {
+  color: #12116d;
+  font-family: 'Avenir LT Std Med';
+
+}
+.form-control {
+  border: none;
+}
+
+/* first box */
+.first-box-inputs input {
+  margin-bottom: 2%;
+  width: 100%;
+}
+.first-box-inputs label {
+  padding-top: 7px;
+}
+
+/*second box*/
+.second-box-inputs {
+  margin-top: 10px;
+}
+
+/*third box*/
+.third-box-inputs .childs span, 
+.third-box-inputs .babys span {
+  font-size: 10px;
+}
+.third-box-inputs .childs input, 
+.third-box-inputs .babys input {
+  width: 100%;
+}
+
+/*======= submit */
+.call-for-submit {
+  color: #12116d;
+  font-family: 'Avenir LT Std Med';
+  font-size: 15px;
+}
+.call-for-submit span {
+  font-weight: 800;
+  font-family: 'Avenir LT Std Heavy';
+}
+
+.btn-submit {
+  margin: 0 auto;
+  width: 180px;
+}
+.btn-submit .btn-default {
+  background-color: #13104f;
+  color: #fff;
+  border: none;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 40px; 
+  background-image: url(../img/ico-search.png);
+  background-repeat: no-repeat;
+  background-position: 30px;  
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.btn-submit .btn-default:focus {
+  background-color: #13104f;
+  border: none;
+}
+/* ==================================== text banner top */
+.text-banner {
+  margin-top: 35%;
+}
+.text-banner h2 span {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 100;
+  font-family: 'Avenir LT Std lig';
+  
+
+  font-weight: 100;
+}
+.text-banner .line-2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #fce229;
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+.text-banner .line-1, 
+.text-banner .line-3 {
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.text-banner .line-1, 
+.text-banner .line-2, 
+.text-banner .line-3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 66px;
+  background-color: rgba(0, 12, 66, 0.7);
+}
+
+
+
+/* ====================================                        ==================================== */
+/* ==================================== section small banners  ==================================== */
+/* ====================================                        ==================================== */
+
+/* ==================================== container */
+.small-banners {
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+  margin-top:12px;
+}
+
+/* ==================================== arrows of slider */
+.slick-next {
+  background: url('../img/next-arrow.png') no-repeat;
+  right: 0;
+}
+
+
+.slick-prev {
+  background: url('../img/prev-arrow.png') no-repeat;
+  left: 0;
+}
+
+.slick-prev, .slick-next {
+  height: 100px;
+  background-size: 100%;
+  color: transparent;
+  font-size: 0;
+}
+
+.slick-next:focus, .slick-next:hover  {
+  background: url('../img/next-arrow.png') no-repeat;
+  background-size: 100%;
+}
+
+.slick-prev:focus, .slick-prev:hover{
+  background: url('../img/prev-arrow.png') no-repeat;
+  background-size: 100%;
+}
+
+.slick-next:before, .slick-prev:before {
+  display: none;
+}
+
+.slick-list {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* ====================================                       ==================================== */
+/* ==================================== section hoteis promo  ==================================== */
+/* ====================================                       ==================================== */
+
+.hoteis-promo, .fly-pass {
+  float: left;
+  width: 100%;
+}
+.fly-pass h3, .hoteis-promo h3 {
+  color: #fff;
+  background-color: #001781;
+  font-family: 'Avenir LT Std Med';
+  padding-top: 23px;
+  padding-bottom: 18px;
+  margin-bottom: 19px;
+  margin-top: 6px;
+
+}
+
+.hoteis-promo .slick-list,
+.fly-pass .slick-list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fly-pass .slick-next,
+.hoteis-promo .slick-next {
+  right: 1%;
+}
+.fly-pass .slick-prev,
+.hoteis-promo .slick-prev {
+  left: 1%;
+}
+
+
+.box-hotel,
+.box-fly {
+  /*width: 300px;*/
+  position: relative;
+  /*margin-left: 15px;*/
+  margin-right: 8px;
+  margin-left: 8px;
+  overflow-x: hidden;
+  background-position: center center;
+  background-size: cover;
+  min-height: 170px;
+}
+
+.box-fly img,
+.box-hotel img {
+  margin: 0 auto;
+  width: 100%;
+}
+.box-text-fly,
+.box-text-hotel {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Avenir LT Std Med';
+  background-image: linear-gradient(rgba(0,0,0,.7) 0,rgba(0,0,0,0) 25%);
+}
+
+.box-text-fly .hotel-name,
+.box-text-hotel .hotel-name {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.box-text-fly .call-price-hotel,
+.box-text-hotel .call-price-hotel {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  width: 60%;
+  background-color: #12116d;
+  padding-top: 11px;
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: right;
+}
+
+.box-text-fly .call-price-hotel:after,
+.box-text-hotel .call-price-hotel:after {
+  content: " ";
+  background-color: #12116d;
+  width: 100%;
+  height: 41px;
+  position: absolute;
+  top: 0;
+}
+
+
+.box-text-fly .price-hotel, 
+.box-text-hotel .price-hotel {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  color: #12116d;
+  font-size: 25px;
+  font-family: 'Avenir LT Std Med';
+  background-image: url(../img/bg-price.png);
+  background-repeat: no-repeat;
+  width: 116px;
+  background-size: 100%;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-right: 10px
+}
+
+.box-text-fly .price-hotel span,
+.box-text-hotel .price-hotel span {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.link-slider {
+  position: relative;
+}
+.box-selo {
+  background-image: url(../img/selo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 2;
+  right: 2px;
+  top: -7px;
+}
+
+.box-selo .selo {
+  color: #fff;
+  font-size: 14px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  padding-top: 20px;
+  padding-left: 29px;
+  width: 95px;
+  margin: 0;
+  text-align: center;
+}
+
+/* ====================================             ==================================== */
+/* ==================================== newsletter  ==================================== */
+/* ====================================             ==================================== */
+.newsletter {
+  float: left;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 275px;
+  background-image: url(../img/bg-newsletter.jpg);
+  margin-top: 20px;
+  color: #fff;
+  padding-top: 20px;
+}
+.newsletter h3 {
+  font-size: 28px;
+
+}
+.newsletter p {
+  font-size: 18px;
+}
+.newsletter p span, .newsletter .subscribe-news {
+  color: #ffdb00;
+}
+
+.newsletter input {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  height: 53px;
+  background-color: #ffdb00;
+  padding-top: 6px;
+}
+
+.newsletter input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #12116d;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+.newsletter input ::-moz-placeholder { /* Firefox 19+ */
+   color: #12116d;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+.newsletter input :-ms-input-placeholder { /* IE 10+ */
+  color: #12116d;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+.newsletter input :-moz-placeholder { /* Firefox 18- */
+  color: #12116d;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.btn-submit-newsletter .btn-default {
+  background: #12116d;
+  color: #12116d;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: solid 1px #ffdb00;
+  color: #ffdb00;
+  width: 129px;
+  height: 37px;
+  margin: 0 auto;
+  font-size: 18px;
+  display: block;
+  margin-top: 15px;
+}
+.btn-submit-newsletter .btn-default:focus {
+  background: #12116d;
+  color: #12116d;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border: solid 1px #ffdb00;
+  color: #ffdb00;
+}
+
+
+/* ====================================             ==================================== */
+/* ==================================== money news  ==================================== */
+/* ====================================             ==================================== */
+.money-news {
+  width: 100%;
+  float: left;
+}
+.money-news h3 {
+  background-color: #e5e5e5;
+  width: 100%;
+  font-family: 'Avenir LT Std black';
+  font-weight: 800;
+  padding-top: 23px;
+  padding-bottom: 18px;
+  margin-bottom: 19px;
+  margin-top: 0;
+  float: left;
+}
+
+.box-money-news {
+  border: solid 1px #999999;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-left: 13px;
+  margin-right: 13px;
+  padding-bottom: 10px;
+}
+
+.box-money-news p {
+  font-family: 'Avenir LT Std lig';
+  color: #616161;
+  margin-bottom: 0;
+  font-size: 11px;
+  margin-top: 3px;
+  padding-top: 2px;
+}
+.box-money-news h5, .box-money-news p span {
+  font-weight: 800;
+  color: #12116d;
+  font-family: 'Avenir LT Std black';
+}
+
+.firt-box span.flag-icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.box-money-news .first-box {
+  float: left;
+}
+.img-fluxo {
+  float: right;
+  width: 100%;
+  max-width: 100px;
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-top: 25px;
+}
+.box-slider-money-news {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* ====================================             ==================================== */
+/* ==================================== money news  ==================================== */
+/* ====================================             ==================================== */
+.section-news {
+  float: left;
+  width: 100%;
+  background-color: #12116d;
+  margin-bottom: 20px;
+}
+.section-news h3, .section-news p {
+  color: #fff;
+}
+.section-news h3 {
+  font-family: 'Avenir LT Std Book';
+  float: left;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.section-news p {
+  font-family: 'Avenir LT Std lig';
+  float: left;
+  width: 400px;
+  overflow-x: hidden;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-news p small {
+  font-style: italic;
+}
+
+/* ==================================== MEDIA QUERIES ==================================== */
+
+@media (max-width: 1200px) {
+  /* ====================================             ==================================== */
+  /* ==================================== banner top  ==================================== */
+  /* ====================================             ==================================== */
+
+  /* ==================================== text banner top */
+  .text-banner {
+    margin-top: 35%;
+  }
+  .text-banner h2 {
+    font-size: 15px;
+  }
+  .text-banner .line-2 {
+    font-size: 33px;
+  }
+  .text-banner .line-1, 
+  .text-banner .line-2, 
+  .text-banner .line-3 {
+    line-height: 55px;
+  }
+
+  /* ==================================== section of form search fly */
+
+  /* ========= form search fly */
+  .form-search-fly {
+    width: 100%;
+  }
+
+  /* =========  radios */
+  .radios-button label:first-child {
+    margin-right: 20%;
+  }
+
+  /* =========  all inputs*/ 
+  /*third box*/
+  .third-box-inputs .childs input, .third-box-inputs .childs label {
+    margin-left: 10%;
+  }
+  
+  /* ====================================             ==================================== */
+  /* ==================================== money news  ==================================== */
+  /* ====================================             ==================================== */
+  .section-news h3 {
+    font-family: 'Avenir LT Std Book';
+    float: left;
+    margin-bottom: 14px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ====================================             ==================================== */
+  /* ==================================== banner top  ==================================== */
+  /* ====================================             ==================================== */
+
+  .banner-home {
+    height: 546px;
+  }
+  /* ==================================== text banner top */
+  .text-banner h2 span {
+    font-size: 14px;
+  }
+  
+  /* ==================================== form search fly */
+  .nav-search {
+    width: 75%;
+  }
+  .bar-top-search .nav>li>a {
+    font-size: 10px;
+  }
+
+  /* ==================================== section of form search fly */
+  .form-search-fly {
+      height: 491px;
+  }
+  /* =========  radios */
+  .radios-button {
+    width: 80%;
+  }
+  /* =========  all inputs */
+
+  /*third box*/
+  .form-group.data-ida label {
+      width: 80%;
+  }
+  .third-box-inputs .childs input, .third-box-inputs .childs label {
+    margin-left: 0%;
+  }
+  /* ====================================             ==================================== */
+  /* ==================================== money news  ==================================== */
+  /* ====================================             ==================================== */
+  .section-news p { 
+    text-align: center;
+  }
+  
+  .section-news h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* ====================================             ==================================== */
+  /* ==================================== banner top  ==================================== */
+  /* ====================================             ==================================== */
+  .banner-home {
+    height: 475px;
+  }
+
+  /* ==================================== text banner top */
+  .text-banner {
+    margin-top: 53px;
+    margin-bottom: 28px;
+  }
+  .text-banner h2 span {
+    font-size: 13px;
+  }
+  .text-banner .line-2 {
+    font-size: 20px;
+  }
+  .text-banner .line-1, 
+  .text-banner .line-2, 
+  .text-banner .line-3 {
+    line-height: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+   /* ==================================== section of form search fly */
+  .form-search-fly {
+    height: 475px;
+    margin-top: 0px;
+  } 
+
+  /* ========= navbar top */
+  .nav-search {
+    width: 204px;
+    padding-left: 0;
+  }
+  .bar-top-search .nav {
+    padding: 2%;
+  }
+  .bar-top-search .nav>li>a {
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bar-top-search .nav>li>a:last-child {
+    padding-right: 10px;
+  }
+
+  /* =========  radios */
+  .radios-button {
+    width: 255px;
+  }
+  
+  /* =========  all inputs */
+  /*first box*/
+  .first-box-inputs input {
+    max-width: 450px;
+    margin-bottom: 12px;
+  }
+
+  /*======= submit */
+  .call-for-submit {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  /* ====================================                        ==================================== */
+  /* ==================================== section small banners  ==================================== */
+  /* ====================================                        ==================================== */
+
+  /* ==================================== arrows of slider */
+  .small-banners-box a {
+    cursor: pointer;
+  }
+
+  .slick-list {
+    width: 80%;
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    left: 10px;
+  }
+  
+  /* ====================================             ==================================== */
+  /* ==================================== newsletter  ==================================== */
+  /* ====================================             ==================================== */
+  .newsletter {
+    float: left;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 290px;
+  }
+  .newsletter h3 {
+    font-size: 18px;
+  }
+  .newsletter p {
+    font-size: 14px;
+  } 
+  /* ====================================             ==================================== */
+  /* ==================================== money news  ==================================== */
+  /* ====================================             ==================================== */
+  .img-fluxo {
+    display: none!important;
+  }
+}

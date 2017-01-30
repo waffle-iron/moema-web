@@ -1,0 +1,284 @@
+/* ==================================== font face */
+@font-face {
+  font-family: 'Neuzeit Heavy';
+  src: url('../fonts/NeuzeitSLTStd-BookHeavy.eot');
+  src: url('../fonts/NeuzeitSLTStd-BookHeavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeuzeitSLTStd-BookHeavy.woff2') format('woff2'),
+    url('../fonts/NeuzeitSLTStd-BookHeavy.woff') format('woff'),
+    url('../fonts/NeuzeitSLTStd-BookHeavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neuzeit';
+  src: url('../fonts/NeuzeitSLTStd-Book.eot');
+  src: url('../fonts/NeuzeitSLTStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NeuzeitSLTStd-Book.woff2') format('woff2'),
+    url('../fonts/NeuzeitSLTStd-Book.woff') format('woff'),
+    url('../fonts/NeuzeitSLTStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std Med';
+  src: url('../fonts/AvenirLTStd-Medium.eot');
+  src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Medium.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Medium.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std Book';
+  src: url('../fonts/AvenirLTStd-Book.eot');
+  src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std heavy';
+  src: url('../fonts/AvenirLTStd-Heavy.eot');
+  src: url('../fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Heavy.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir LT Std lig';
+  src: url('../fonts/AvenirLTStd-Light.eot');
+  src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir LT Std black';
+  src: url('../fonts/AvenirLTStd-Black.eot');
+  src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+    url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* ==================================== font reset for all site */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: 'Neuzeit';
+}
+
+/* ==================================== icons sprite for main */
+.ico-envelope, .ico-facebook, .ico-google-plus, .ico-instagran, .ico-phone, .ico-twitter, .ico-vimeo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 25px;
+  background: url('../img/sprite-main.png') no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+.ico-envelope { background-position: -10px -0px; width: 24px; height: 22px; }
+.ico-facebook { background-position: -44px -0px; width: 24px; height: 22px; }
+.ico-google-plus { background-position: -10px -32px; width: 24px; height: 22px; }
+.ico-instagran { background-position: -44px -32px; width: 24px; height: 22px; }
+.ico-phone { background-position: -10px -64px; width: 24px; height: 22px; }
+.ico-twitter { background-position: -44px -64px; width: 24px; height: 22px; }
+.ico-vimeo { background-position: -10px -96px; width: 24px; height: 22px; }
+
+/* ==================================== utis */
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.padding-left {
+  padding-left: 10px;
+}
+.padding-right {
+  padding-right: 10px
+}
+/* ==================================== menu contact */
+.menu-contact {
+  border-top: solid 3px #001781;
+  background-color: #f5f5f5;
+}
+.menu-contact .nav>li>a  {
+  color: #a3a3a3;
+  font-size: 12px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 10px 4px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.ico-envelope {
+    margin-right: 6px;
+}
+
+/* ==================================== menu top */
+.menu-top .navbar-brand {
+  padding: 0px;
+}
+.menu-top .navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.menu-top .navbar-brand {
+  height: 110px;
+}
+.menu-top .nav >li >a {
+  padding-top: 50px;
+  padding-bottom: 23px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #616060;
+}
+
+.menu-top .nav>li>a.active,
+.menu-top .nav>li>a:focus, 
+.menu-top .nav>li>a:hover {
+  background-color: transparent;
+  border-bottom: solid 4px #121d62;
+  border-size: 10px;
+}
+.menu-top .navbar-toggle .icon-bar {
+  background-color: #121d62; 
+  height: 5px;
+  width: 39px;
+}
+
+.menu-top .navbar-toggle {
+  padding: 15px;
+}
+
+.menu-top .navbar {
+  margin-bottom: 0;
+}
+.menu-top .navbar-header h1 {
+  float: left;
+  margin: 0;
+  font-size: 0;
+}
+
+/* ==================================== footer */
+.footer-home {
+  float: left;
+  width: 100%;
+}
+.footer-home .links {
+  background-color: #12116d;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.footer-home .links a {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Avenir LT Std lig';
+  font-size: 11px;
+}
+.footer-home .links li {
+  margin-bottom: 15px;
+}
+.footer-home .links img {
+  margin-top: 25px;
+}
+.footer-home .info {
+  background-color: #e5e5e5;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 10px;
+}
+
+/* ==================================== MEDIA QUERIES ==================================== */
+
+@media (max-width: 1200px) {
+  /* ==================================== menu top */
+  .menu-top .navbar-brand {
+    height: 85px;
+  }
+  .menu-top .navbar-header {
+    margin-top: 11px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  /* ==================================== menu top */
+  .menu-top .navbar-header {
+    float: none;
+    width: 220px;
+    margin: 0 auto;
+  }
+  .menu-top .nav >li >a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  /* ==================================== menu contact */
+  #email-contact span {
+    display: none;
+  }
+
+  /* ==================================== menu top */
+  .menu-top .navbar-brand>img {
+    padding-left: 9px;
+  }
+  .menu-top .navbar-header {
+    float: left;
+    width: 100%;
+  }
+  .menu-top .navbar-toggle {
+    padding: 0; 
+    margin-right: 5px;
+    margin-top: 23px;
+  }
+  .menu-top .navbar-toggle .icon-bar {
+    width: 38px;
+    border-radius: 100px;
+  }
+  /* ==================================== footer */
+  .footer-home {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .footer-home ul {
+    text-align: center;
+  }
+  
+  .footer-home img {
+    margin-top: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
